@@ -1,0 +1,21 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block body %}
+
+<section class="body-section">
+    <div class="row">
+        <div class="col span_1_of_2 content">
+            <h2>Hey, I am SAMRAT</h2>
+            <p>I am a professional full stack web application developer. I create responsive website for your business.</p>
+            <div class="project-btn">
+                <button>My Project</button>
+            </div>
+        </div>
+        <div class="col span_1_of_2 home-img">
+            <img src="{% static 'home/images/home-img.jpg' %}" alt="">
+        </div>
+    </div>
+</section>
+
+{% endblock %}

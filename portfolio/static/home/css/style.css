@@ -1,0 +1,107 @@
+/* Basic Setup */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Navigation Menu */
+
+nav{
+    background: #87509c;
+    padding: 15px 0;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu{
+    float: right;
+    margin-top: 3px;
+}
+
+.nav-menu li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.nav-menu li a:link,
+.nav-menu li a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.nav-menu li:hover a:link,
+.nav-menu li:hover a:visited{
+    background: #643a79;
+}
+
+/* home body section */
+
+section{
+    height: 100vh;
+}
+
+.body-section{
+    background: #87509c;
+}
+
+.content{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 50px;
+    color: white;
+}
+
+.content p{
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.project-btn button{
+    background: #eb7d4b;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.home-img{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+.home-img img{
+    text-align: center;
+    height: 400px;
+    width: 450px;
+    border-radius: 3px;
+}
