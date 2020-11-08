@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1024px){
+    .row{
+        margin: 0 30px;
+    }
+    .btn-send-message{
+        margin-top: 30px;
+    }
+
+
+    .content h2{
+        font-size: 40px;
+        margin-right: 10px;
+    }
+    .content p{
+        font-size: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .home-img img{
+        text-align: center;
+        height: 350px;
+        width: 400px;
+        margin-left: 20px;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 980px){
+    .nav-menu{
+        display: none;
+    }
+    .content h2{
+        font-size: 30px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .home-img img{
+        text-align: center;
+        height: 300px;
+        width: 400px;
+        margin-bottom: 10px;
+    }
+    
+    .education-section .degree{
+        margin-left: 10px;
+    }
+
+    .education-section .project{
+        margin-left: 30px;
+    }
+
+    .education-section .degree h1{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .contact-section form{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .span_1_of_2{
+        width: 100%;
+    }
+
+    .education-section .degree,
+    .education-section .project{
+        text-align: center;
+    }
+
+    .contact-section form input[type="text"],
+    .contact-section form input[type="email"],
+    .contact-section form textarea{
+        margin-top: 10px;
+    }
+
+    .contact-section form{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .body-section .row{
+        width: 100%;
+        margin: auto;
+    }
+
+    .home-img img{
+        text-align: center;
+        height: 200px;
+        width: 300px;
+        margin: auto;
+        
+    }
+    .content h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .main{
+        margin-left: 20px;
+    }
+    .education-section .row{
+        width: 100%;
+        margin: auto;
+    }
+    .education-section .education h2{
+        font-size: 25px;
+    }
+    .education-section .degree h1{
+        font-size: 17px;
+    }
+    .education-section .degree h3{
+        font-size: 17px;
+    }
+    .education-section .experience h2{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .education-section .experience h2::after{
+        width: 300px;
+    }
+    .education-section .project  h4{
+        font-size: 15px;
+    }
+
+}
+    
+        
+        

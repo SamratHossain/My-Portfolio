@@ -1,0 +1,95 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block body %}
+
+<section class="skill-section">
+    <div class="row">
+            <h2>My Skills</h2>
+            <p>As a Developer, I love taking challenges and love being part of the solution.</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_2">
+            <h3>FrontEnd</h3>
+            <div class="main">
+                <div class="progressBar">
+                    <div class="title htmlColor">HTML5</div>
+                    <div class="progress html"></div>
+                    <div class="progress_value">90%</div>
+                </div>
+                <div class="progressBar">
+                    <div class="title cssColor">CSS3</div>
+                    <div class="progress css"></div> 
+                    <div class="progress_value">75%</div>
+                </div>
+                <div class="progressBar">
+                    <div class="title jsColor">Bootstrap</div>
+                    <div class="progress js"></div>
+                    <div class="progress_value">80%</div>
+                </div>
+                <div class="progressBar">
+                    <div class="title bootstrapColor">JavaScript</div>
+                    <div class="progress bootstrap"></div>
+                    <div class="progress_value">70%</div>
+                </div>
+            </div>
+        </div>
+        <div class="col span_1_of_2">
+            <h3>BackEnd</h3>
+            <div class="main">
+                <div class="progressBar">
+                    <div class="title htmlColor">Python</div>
+                    <div class="progress html"></div>
+                    <div class="progress_value">90%</div>
+                </div>
+                <div class="progressBar">
+                    <div class="title cssColor">Django</div>
+                    <div class="progress css"></div> 
+                    <div class="progress_value">75%</div>
+                </div>
+                <div class="progressBar">
+                    <div class="title jsColor">PostgreSQL</div>
+                    <div class="progress js"></div>
+                    <div class="progress_value">80%</div>
+                </div>
+                <div class="progressBar">
+                    <div class="title bootstrapColor">MySQL</div>
+                    <div class="progress bootstrap"></div>
+                    <div class="progress_value">70%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="education-section">
+    <div class="row">
+        <div class="col span_1_of_2 education">
+            <h2>education</h2>
+            <div class="degree">
+                <h1>B.sc in Computer Science and Engineering</h3>
+                <h3>Institute of Science and Technology</h3>
+                <h4>2017-running</h4>
+            </div>
+            <div class="degree">
+                <h1>Higher Secondary Certificate(HSC)</h3>
+                <h3>Dohar-Nawabgonj College</h3>
+                <h4>2014-2016</h4>
+            </div>
+            <div class="degree">
+                <h1>Secondary School Certificate(SSC)</h3>
+                <h3>Barrah Habil Uddin High School</h3>
+                <h4>2009-2013</h4>
+            </div>
+        </div>
+        <div class="col span_1_of_2 experience">
+            <h2>Working Exprience</h2>
+            <div class="project">
+                <h3>Project: Enrollment System</h3>
+                <p>In this system administration keeps students information during admission. Administration can make any query regarding a student using a search option and also adding new record, save record, update record and delete record.</p>
+                <h4>Technology: Python, Django, PostgreSQL, HTML5, CSS3, Bootstrap</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

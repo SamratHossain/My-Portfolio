@@ -15,22 +15,31 @@ body{
     margin: 0 auto;
 }
 
+section{
+    padding: 80px;
+}
+
 
 /* Navigation Menu */
 
 nav{
     background: #87509c;
-    padding: 15px 0;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .logo{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 .nav-menu{
     float: right;
     margin-top: 3px;
+    z-index: 9999;
 }
 
 .nav-menu li{
@@ -56,16 +65,14 @@ nav{
 
 /* home body section */
 
-section{
-    height: 100vh;
-}
 
 .body-section{
     background: #87509c;
+    margin-bottom: 10px;
 }
 
 .content{
-    margin-top: 150px;
+    margin-top: 65px;
     text-align: center;
 }
 
@@ -97,11 +104,294 @@ section{
     margin-top: 80px;
 }
 
-
-
 .home-img img{
     text-align: center;
-    height: 400px;
+    height: 350px;
     width: 450px;
     border-radius: 3px;
+}
+
+/* Social Icon */
+
+.social-icon{
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.social-icon ul li a{
+    color: #ffff;
+}
+
+.social-icon ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-icon ul li a:link i::before{
+    background: black;
+    height: 50px;
+    width: 50px;
+    padding: 10px 12px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+/* Skills Section */
+
+.skill-section{
+
+    background: #169882;
+}
+.skill-section h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.skill-section h2::after{
+        content: "";
+        display: block;
+        height: 5px;
+        background: white;
+        width: 200px;
+        margin: auto;
+        margin-top: 5px;
+}
+
+.skill-section p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.skill-section h3{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.skill-section h3::after{
+        content: "";
+        display: block;
+        height: 5px;
+        background: white;
+        width: 150px;
+        margin: auto;
+        margin-top: 5px;
+}
+
+/*Skill Progress Bar */
+
+.main{
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    width: 100%;
+}
+.progressBar{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.title{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1000;
+    line-height: 2.5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-shadow: 1px 1px 1px #000;
+       
+}
+.progress_value{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    z-index: 10000;
+    color: #455a64;
+}
+.progress{
+    height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
+}
+.htmlColor{
+    background-color: #000;
+}
+.cssColor{
+    background-color: #000;
+}
+.jsColor{
+    background-color: #000;
+}
+.bootstrapColor{
+    background-color: #000;
+}
+.html{
+    background: #000;
+}
+.css{
+    background:#000;
+}
+.js{
+    background: #000;
+}
+.bootstrap{
+    background: #000;
+}
+
+/* Education Section */
+
+.education-section{
+    background: #1f6f8b;
+    color: white;
+}
+
+.education-section .education h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.education-section .education h2::after{
+        content: "";
+        display: block;
+        height: 5px;
+        background: white;
+        width: 250px;
+        margin: auto;
+        margin-top: 5px;
+}
+
+.education-section .degree{
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+
+.education-section .experience h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.education-section .experience h2::after{
+    content: "";
+    display: block;
+    height: 5px;
+    background: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.education-section .project h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.education-section .project p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.education-section .project h4{
+    font-size: 18px;
+}
+
+/* Contact Section */
+
+.contact-section{
+    background: #3C5499;
+    color: white;
+}
+
+.contact-section h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.contact-section h2::after{
+    content: "";
+    display: block;
+    height: 5px;
+    background: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.contact-section p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-section form{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea{
+    background: #273a71;
+    border:1px solid #273a71;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 1px;
+    outline: none;
+    color: #fff;
+}
+
+.btn-send-message{
+    border: 0;
+    background: #30bae7;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.btn-message{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-section textarea{
+    height: 200px;
+}
+
+.contact-section form ::placeholder{
+    color: white;
+    opacity: 1;
 }

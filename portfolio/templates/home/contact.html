@@ -1,0 +1,28 @@
+{% extends 'home/base.html' %}
+
+{% block body %}
+
+<section class="contact-section">
+    <div class="row">
+        <h2>contact with me</h2>
+        <p>If you have any question, feel free to send me a message</p>
+    </div>
+    <form action="https://formspree.io/f/mjvproav" method="POST">
+        <div class="row">
+            <div class="col span_1_of_2">
+                <input type="text" placeholder="Your Name *" name="name" required>
+            </div>
+            <div class="col span_1_of_2">
+                <input type="email" placeholder="Your Email *" required>
+            </div>
+        </div>
+        <div class="row">
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+        </div>
+        <div class="row btn-message">
+            <input class="btn-send-message" type="submit" value="Send Message">
+        </div>
+    </form>
+</section>
+
+{% endblock %}

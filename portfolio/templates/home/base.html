@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{ title }}</title>
      <!-- Google Fonts -->
      <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600;700&display=swap" rel="stylesheet">
      <!-- Font Awesome -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="{% static 'home/css/grid.css' %}">
+     <!-- CSS Files -->
+     <link rel="stylesheet" href="{% static 'home/css./grid.css' %}">
      <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+     <link rel="stylesheet" href="{% static 'home/css/responsive.css' %}">
      
     
 </head>
 <body>
-
     <nav>
         <div class="row">
-                    <a class="logo" href="#">SAM DEV</a>
+                 <a class="logo" href="{% url 'home:home' %}">SAMRAT HOSSAIN</a>
             <ul class="nav-menu">
                 <li><a href="{% url 'home:home' %}">home</a></li>
-                <li><a href="{% url 'home:portfolio' %}">portfolio</a></li>
-                <li><a href="#">project</a></li>
+                <li><a href="{% url 'home:portfolio' %}">project</a></li>
+                <li><a href="{% url 'home:skill' %}">skill</a></li>
                 <li><a href="#">blog</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="{% url 'home:contact' %}">contact</a></li>
             </ul>
         </div>
     </nav>
@@ -38,5 +39,8 @@
     <!-- JS Files -->
     <script src="{% static 'home/js/html5shiv.min.js' %}"></script>
     <script src="{% static 'home/js/respond.min.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{% static 'home/js/main.js' %}"></script>
+
 </body>
 </html>
